@@ -57,7 +57,7 @@ func createBook(w http.ResponseWriter, r *http.Request) {
 	book.ID = strconv.Itoa(rand.Intn(1000000)) // Mock Id - not safe
 	books = append(books, book)
 	json.NewEncoder(w).Encode(book)
-
+	return
 }
 
 func updateBook(w http.ResponseWriter, r *http.Request) {
@@ -91,7 +91,7 @@ func deleteBooks(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	fmt.Println("Hello world")
+	fmt.Println("Sever start at port :3000")
 	r := mux.NewRouter()
 
 	//Mock Data - @todo -implement DB
