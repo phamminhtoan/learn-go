@@ -1,9 +1,9 @@
 package main
 
 import (
-	"HeadFirstGo/chapter4/calc"
-	"HeadFirstGo/chapter4/dates"
-	"HeadFirstGo/chapter4/greeting"
+	"HeadFirstGo/9/calc"
+	"HeadFirstGo/9/dates"
+	"HeadFirstGo/9/greeting"
 	"fmt"
 )
 
