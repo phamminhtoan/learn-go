@@ -3,11 +3,13 @@ package main
 import (
 	"fmt"
 	"log"
+	"os"
 )
 
 func main() {
 	// readFile("./12/data.txt")
-	numbers, err := getFloats("./12/data.txt")
+	fmt.Println(os.Args[1:])
+	numbers, err := getFloats2("./13/data.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -20,6 +22,6 @@ func main() {
 	sampleCount := float64(len(numbers))
 	fmt.Printf("Average: %.2f\n", sum/sampleCount)
 
-	myString, err := getString("./12/text.txt")
+	myString, err := getString("./13/text.txt")
 	fmt.Println(myString)
 }
