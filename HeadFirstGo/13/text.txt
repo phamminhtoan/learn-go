@@ -1,6 +1,0 @@
-Choosing a programming language isn’t easy. The separate features of a language may look great at first, but it takes time and experience to spot the drawbacks.
-
-As a CS professor and longtime Go and Java developer, I’d like to share some of my thoughts and explain why I prefer Go to Java or Python – Go makes it much easier for me to write good code.
-
-Go has been my main programming tool since 2012, replacing Java, which in turn replaced C in 1998. I use Python mostly for teaching. My journey as a pro­gram­mer started back in 1978 on a TI-57 with 50 program steps and 8 registers.
-
