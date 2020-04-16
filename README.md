@@ -1,2 +1,2 @@
-# 🐶 Learn Go 
+# 🔥 Learn Go 
 Code samples and exercise that i've learned from many courses, books and stack overflow ...
