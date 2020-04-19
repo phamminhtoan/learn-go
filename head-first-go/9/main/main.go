@@ -1,10 +1,10 @@
 package main
 
 import (
-	"HeadFirstGo/9/calc"
-	"HeadFirstGo/9/dates"
-	"HeadFirstGo/9/greeting"
 	"fmt"
+	"head-first-go/9/calc"
+	"head-first-go/9/dates"
+	"head-first-go/9/greeting"
 )
 
 func main() {

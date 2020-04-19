@@ -1,8 +1,8 @@
 package main
 
 import (
-	"HeadFirstGo/9/keyboard"
 	"fmt"
+	"head-first-go/9/keyboard"
 	"log"
 )
 
