@@ -8,4 +8,5 @@ func main() {
 	fmt.Scan(&myFloat)
 	myInt := int(myFloat)
 	fmt.Println(myInt)
+
 }

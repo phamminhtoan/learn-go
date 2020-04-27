@@ -16,6 +16,7 @@ func main() {
 	}
 	s := strings.Replace("ianianian", "ni", "in", 2)
 	fmt.Println(s)
+
 	x := 7
 	switch {
 	case x > 3:
