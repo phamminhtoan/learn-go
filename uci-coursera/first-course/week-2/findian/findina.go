@@ -28,19 +28,19 @@ func main() {
 		fmt.Printf("4")
 	}
 
-	// var xtemp int
-	// x1 := 0
-	// x2 := 1
-	// for x := 0; x < 5; x++ {
-	// 	xtemp = x2
-	// 	x2 = x2 + x1
-	// 	x1 = xtemp
-	// }
-	// fmt.Println(x2)
+	var xtemp int
+	x1 := 0
+	x2 := 1
+	for x := 0; x < 5; x++ {
+		xtemp = x2
+		x2 = x2 + x1
+		x1 = xtemp
+	}
+	fmt.Println(x2)
 
-	var x int
-	var y *int
-	z := 3
-	y = &z
-	x = &y
+	// var x int
+	// var y *int
+	// z := 3
+	// y = &z
+	// x = &y
 }
