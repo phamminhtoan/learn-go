@@ -62,6 +62,11 @@ func (app *application) insertUser(id, name string) {
 	fmt.Println(lastID)
 }
 
+func (app *application) deleteUser(id string) {
+	_, err := app.db.Exec("DELETE FROM users where id=?", id)
+	check(err)
+}
+
 func main() {
 	db, err := sql.Open("mysql", "root:123456789@/hello")
 	check(err)
@@ -72,6 +77,7 @@ func main() {
 	app := &application{db: db}
 	// app.getUser(0)
 	app.insertUser("3", "minh thach")
+	// app.deleteUser("1")
 	app.getAllUser()
 
 }
